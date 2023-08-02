@@ -8,7 +8,7 @@ $union = $Student_139 + $Student_138;
 print_r($union);
 // returns first array since Key -> is present in the first array
 
-$message1 = "Bharat ";
+$message1 = "\nBharat ";
 $message2 = "Jodo ";
 $message3 = "Yatra ";
 
@@ -18,12 +18,11 @@ echo $JointMessage;
 
 //concatenates 3 strings
 
-$my_age = 20;
-$my_fathers_age = 45;
-$my_grtgrandfathersage = $my_age += 2 * $my_fathers_age; 
-// Multiplication has higher precedence than addition  and assignment has the lowest 
+$bodmas = 5 * 3 / (6+9)  ;
+// precedence of operators 
+// Paranthesis , Multipiicatons , Division
 
-echo "\n\nResult 4: " . $my_grtgrandfathersage . "\n"; 
+echo "\n\nAnswer :  " . $bodmas . "\n"; 
 
 ?>
 
