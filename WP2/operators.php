@@ -1,9 +1,11 @@
 <?php
 
-$Student_139 = ["Aditya", "Bhagwant", "Pai"];
-$Student_138 = ["Aditya", "Vilas", "Awhad"];
 
-$union = $Student_139 + $Student_138;
+$Student_139 = array("Name" => "Aditya", "Surname" => "Pai");  
+$Course_139 = array("Branch" => "IT", "Honors" => "AI");  
+
+
+$union = $Student_139 + $Course_139;
 
 print_r($union);
 // returns first array since Key -> is present in the first array
