@@ -18,6 +18,14 @@ $JointMessage = $message1 . $message2 . $message3;
 
 echo $JointMessage;
 
+echo "\n\n";
+
+$s1 = "Fight Club";
+$s3 = "Brad Pitt's ";
+$s3 .= $s1;
+
+echo $s3;
+
 //concatenates 3 strings
 
 $bodmas = 5 * 3 / (6+9)  ;
